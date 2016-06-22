@@ -1,5 +1,5 @@
 //
-//  main.m
+//  SPAddSubjectViewController.h
 //  StudentPortalDataEntry
 //
 //  Created by Han Htoo Zaw on 10/27/15.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface SPAddSubjectViewController : NSViewController
+
+@end

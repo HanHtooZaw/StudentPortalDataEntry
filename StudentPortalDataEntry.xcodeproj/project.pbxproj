@@ -12,7 +12,41 @@
 		143792711BDF156800C8C85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143792701BDF156800C8C85A /* ViewController.m */; };
 		143792731BDF156800C8C85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143792721BDF156800C8C85A /* Assets.xcassets */; };
 		143792761BDF156800C8C85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143792741BDF156800C8C85A /* Main.storyboard */; };
+		143792801BDF159700C8C85A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437927E1BDF159700C8C85A /* Bolts.framework */; };
+		143792811BDF159700C8C85A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437927F1BDF159700C8C85A /* Parse.framework */; };
+		143792831BDF15BE00C8C85A /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143792821BDF15BE00C8C85A /* ApplicationServices.framework */; };
+		143792851BDF15C600C8C85A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143792841BDF15C600C8C85A /* CFNetwork.framework */; };
+		143792871BDF15CE00C8C85A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143792861BDF15CE00C8C85A /* CoreGraphics.framework */; };
+		143792891BDF15D400C8C85A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143792881BDF15D400C8C85A /* CoreLocation.framework */; };
+		1437928B1BDF15DD00C8C85A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437928A1BDF15DD00C8C85A /* QuartzCore.framework */; };
+		1437928D1BDF15E300C8C85A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437928C1BDF15E300C8C85A /* Security.framework */; };
+		1437928F1BDF15ED00C8C85A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437928E1BDF15ED00C8C85A /* SystemConfiguration.framework */; };
+		143792911BDF162100C8C85A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 143792901BDF162100C8C85A /* libsqlite3.tbd */; };
+		143792931BDF162800C8C85A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 143792921BDF162800C8C85A /* libz.tbd */; };
+		143792951BDF166800C8C85A /* Parse.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1437927F1BDF159700C8C85A /* Parse.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		143792961BDF166D00C8C85A /* Bolts.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1437927E1BDF159700C8C85A /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14493C191C2FDEB3002AB19E /* SPDocumentUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14493C181C2FDEB3002AB19E /* SPDocumentUploadViewController.m */; };
+		145DC12F1C551CE800CE2B21 /* SPAddNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145DC12E1C551CE800CE2B21 /* SPAddNoticeViewController.m */; };
+		1498B3A01BDF4CEE00C54013 /* SPAddSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498B39F1BDF4CEE00C54013 /* SPAddSubjectViewController.m */; };
+		1498B3A31BDFBB7200C54013 /* SPDataEntryApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498B3A21BDFBB7200C54013 /* SPDataEntryApi.m */; };
+		14AD9B9C1BE51EEC00D175B8 /* SPStudentRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9B9B1BE51EEC00D175B8 /* SPStudentRegistrationViewController.m */; };
+		14AD9B9F1BEC3CD300D175B8 /* SPClassScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9B9E1BEC3CD300D175B8 /* SPClassScheduleViewController.m */; };
+		14C338671BE1256000BDD594 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C338661BE1256000BDD594 /* TeacherRegistrationViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		143792941BDF164900C8C85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				143792961BDF166D00C8C85A /* Bolts.framework in CopyFiles */,
+				143792951BDF166800C8C85A /* Parse.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		143792661BDF156800C8C85A /* StudentPortalDataEntry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentPortalDataEntry.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +58,31 @@
 		143792721BDF156800C8C85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143792751BDF156800C8C85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		143792771BDF156800C8C85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1437927E1BDF159700C8C85A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1437927F1BDF159700C8C85A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		143792821BDF15BE00C8C85A /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		143792841BDF15C600C8C85A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		143792861BDF15CE00C8C85A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		143792881BDF15D400C8C85A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1437928A1BDF15DD00C8C85A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1437928C1BDF15E300C8C85A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1437928E1BDF15ED00C8C85A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		143792901BDF162100C8C85A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		143792921BDF162800C8C85A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14493C171C2FDEB3002AB19E /* SPDocumentUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDocumentUploadViewController.h; sourceTree = "<group>"; };
+		14493C181C2FDEB3002AB19E /* SPDocumentUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDocumentUploadViewController.m; sourceTree = "<group>"; };
+		145DC12D1C551CE800CE2B21 /* SPAddNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddNoticeViewController.h; sourceTree = "<group>"; };
+		145DC12E1C551CE800CE2B21 /* SPAddNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddNoticeViewController.m; sourceTree = "<group>"; };
+		1498B39E1BDF4CEE00C54013 /* SPAddSubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddSubjectViewController.h; sourceTree = "<group>"; };
+		1498B39F1BDF4CEE00C54013 /* SPAddSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddSubjectViewController.m; sourceTree = "<group>"; };
+		1498B3A11BDFBB7200C54013 /* SPDataEntryApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDataEntryApi.h; sourceTree = "<group>"; };
+		1498B3A21BDFBB7200C54013 /* SPDataEntryApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDataEntryApi.m; sourceTree = "<group>"; };
+		14AD9B9A1BE51EEC00D175B8 /* SPStudentRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPStudentRegistrationViewController.h; sourceTree = "<group>"; };
+		14AD9B9B1BE51EEC00D175B8 /* SPStudentRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPStudentRegistrationViewController.m; sourceTree = "<group>"; };
+		14AD9B9D1BEC3CD300D175B8 /* SPClassScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPClassScheduleViewController.h; sourceTree = "<group>"; };
+		14AD9B9E1BEC3CD300D175B8 /* SPClassScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPClassScheduleViewController.m; sourceTree = "<group>"; };
+		14C338651BE1256000BDD594 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
+		14C338661BE1256000BDD594 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +90,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143792931BDF162800C8C85A /* libz.tbd in Frameworks */,
+				143792911BDF162100C8C85A /* libsqlite3.tbd in Frameworks */,
+				1437928F1BDF15ED00C8C85A /* SystemConfiguration.framework in Frameworks */,
+				1437928D1BDF15E300C8C85A /* Security.framework in Frameworks */,
+				1437928B1BDF15DD00C8C85A /* QuartzCore.framework in Frameworks */,
+				143792891BDF15D400C8C85A /* CoreLocation.framework in Frameworks */,
+				143792871BDF15CE00C8C85A /* CoreGraphics.framework in Frameworks */,
+				143792851BDF15C600C8C85A /* CFNetwork.framework in Frameworks */,
+				143792831BDF15BE00C8C85A /* ApplicationServices.framework in Frameworks */,
+				143792811BDF159700C8C85A /* Parse.framework in Frameworks */,
+				143792801BDF159700C8C85A /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +110,7 @@
 		1437925D1BDF156800C8C85A = {
 			isa = PBXGroup;
 			children = (
+				1437927D1BDF157700C8C85A /* Frameworks */,
 				143792681BDF156800C8C85A /* StudentPortalDataEntry */,
 				143792671BDF156800C8C85A /* Products */,
 			);
@@ -58,11 +129,23 @@
 			children = (
 				143792691BDF156800C8C85A /* AppDelegate.h */,
 				1437926A1BDF156800C8C85A /* AppDelegate.m */,
+				1498B39E1BDF4CEE00C54013 /* SPAddSubjectViewController.h */,
+				1498B39F1BDF4CEE00C54013 /* SPAddSubjectViewController.m */,
+				14C338651BE1256000BDD594 /* TeacherRegistrationViewController.h */,
+				14C338661BE1256000BDD594 /* TeacherRegistrationViewController.m */,
+				14AD9B9A1BE51EEC00D175B8 /* SPStudentRegistrationViewController.h */,
+				14AD9B9B1BE51EEC00D175B8 /* SPStudentRegistrationViewController.m */,
 				1437926F1BDF156800C8C85A /* ViewController.h */,
 				143792701BDF156800C8C85A /* ViewController.m */,
-				143792721BDF156800C8C85A /* Assets.xcassets */,
+				1498B3A11BDFBB7200C54013 /* SPDataEntryApi.h */,
+				1498B3A21BDFBB7200C54013 /* SPDataEntryApi.m */,
+				14AD9B9D1BEC3CD300D175B8 /* SPClassScheduleViewController.h */,
+				14AD9B9E1BEC3CD300D175B8 /* SPClassScheduleViewController.m */,
 				143792741BDF156800C8C85A /* Main.storyboard */,
-				143792771BDF156800C8C85A /* Info.plist */,
+				145DC12D1C551CE800CE2B21 /* SPAddNoticeViewController.h */,
+				145DC12E1C551CE800CE2B21 /* SPAddNoticeViewController.m */,
+				14493C171C2FDEB3002AB19E /* SPDocumentUploadViewController.h */,
+				14493C181C2FDEB3002AB19E /* SPDocumentUploadViewController.m */,
 				1437926C1BDF156800C8C85A /* Supporting Files */,
 			);
 			path = StudentPortalDataEntry;
@@ -71,9 +154,29 @@
 		1437926C1BDF156800C8C85A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				143792721BDF156800C8C85A /* Assets.xcassets */,
+				143792771BDF156800C8C85A /* Info.plist */,
 				1437926D1BDF156800C8C85A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1437927D1BDF157700C8C85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				143792921BDF162800C8C85A /* libz.tbd */,
+				143792901BDF162100C8C85A /* libsqlite3.tbd */,
+				1437928E1BDF15ED00C8C85A /* SystemConfiguration.framework */,
+				1437928C1BDF15E300C8C85A /* Security.framework */,
+				1437928A1BDF15DD00C8C85A /* QuartzCore.framework */,
+				143792881BDF15D400C8C85A /* CoreLocation.framework */,
+				143792861BDF15CE00C8C85A /* CoreGraphics.framework */,
+				143792841BDF15C600C8C85A /* CFNetwork.framework */,
+				143792821BDF15BE00C8C85A /* ApplicationServices.framework */,
+				1437927E1BDF159700C8C85A /* Bolts.framework */,
+				1437927F1BDF159700C8C85A /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +189,7 @@
 				143792621BDF156800C8C85A /* Sources */,
 				143792631BDF156800C8C85A /* Frameworks */,
 				143792641BDF156800C8C85A /* Resources */,
+				143792941BDF164900C8C85A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -145,9 +249,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C338671BE1256000BDD594 /* TeacherRegistrationViewController.m in Sources */,
+				1498B3A31BDFBB7200C54013 /* SPDataEntryApi.m in Sources */,
+				14AD9B9C1BE51EEC00D175B8 /* SPStudentRegistrationViewController.m in Sources */,
+				145DC12F1C551CE800CE2B21 /* SPAddNoticeViewController.m in Sources */,
 				143792711BDF156800C8C85A /* ViewController.m in Sources */,
 				1437926E1BDF156800C8C85A /* main.m in Sources */,
+				1498B3A01BDF4CEE00C54013 /* SPAddSubjectViewController.m in Sources */,
 				1437926B1BDF156800C8C85A /* AppDelegate.m in Sources */,
+				14AD9B9F1BEC3CD300D175B8 /* SPClassScheduleViewController.m in Sources */,
+				14493C191C2FDEB3002AB19E /* SPDocumentUploadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +360,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = StudentPortalDataEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HHZ.StudentPortalDataEntry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -261,8 +377,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = StudentPortalDataEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HHZ.StudentPortalDataEntry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -287,6 +408,7 @@
 				1437927C1BDF156800C8C85A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

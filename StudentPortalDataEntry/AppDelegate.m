@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -15,11 +16,8 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
-}
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    
+    [Parse setApplicationId:@"wVRZavzu8nWrCXqARfeDpJuQkmAZ6Y3bCi6oQe6A" clientKey:@"dhCUaW995HXG0Nw7FU8KBc35YrtQ7iWboOxjXO3P"];
 }
 
 @end

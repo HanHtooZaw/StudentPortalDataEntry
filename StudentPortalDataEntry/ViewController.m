@@ -11,15 +11,14 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+    self.view.frame = NSRectFromCGRect(CGRectMake(0, 0, 100.0f, 700.0f));
+    self.selectedTabViewItemIndex = 5;
 }
+    
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
 
-    // Update the view, if already loaded.
-}
+
 
 @end
